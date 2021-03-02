@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+img {
+	position: absolute;
+}
+
+audio {
+	position: absolute;
+	z-index: 100;
+}
+
+.Reye {
+	left: 899px;
+	top: 900px;
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+
+.Reye:hover {
+	opacity: 1;
+}
+
+.Leye {
+	left: 485px;
+	top: 878px;
+}
+
+.Smile {
+	left: 588px;
+	top: 1320px;
+}
+
+.Mouth {
+	left: 577px;
+	top: 1309px;
+	transition: top 5s;
+}
+
+.Mouth:hover {
+	top: 1509px;
+}
+
+.player {
+	position: absolute;
+	left: 650px;
+	top: 50px;
+}
+
+.everything {
+	position: absolute;
+	opacity: 0.5;
+	top: 1000px;
+}
